@@ -1,0 +1,14 @@
+obj
+bin
+*.user
+*.suo
+App_Data
+*.results.xml
+/packages
+DigiStore.sln.docstates
+_ReSharper.DigiStore
+_PackagedWebsite
+TestResults
+*.cache
+*~
+/PublishProfiles
