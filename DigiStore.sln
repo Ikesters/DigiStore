@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiStore", "DigiStore\DigiStore.csproj", "{E1501787-AE83-4302-8B77-37B739351742}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPalHelpers", "PayPalHelpers\PayPalHelpers.csproj", "{BF1975C9-F5DD-4101-B763-E5014F92AB95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPalDGHelpers", "PayPalHelpers\PayPalDGHelpers.csproj", "{BF1975C9-F5DD-4101-B763-E5014F92AB95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{DF059BC3-C0D3-4FF0-A9BF-10A1F5A4BC72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{BF1975C9-F5DD-4101-B763-E5014F92AB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF1975C9-F5DD-4101-B763-E5014F92AB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF1975C9-F5DD-4101-B763-E5014F92AB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF059BC3-C0D3-4FF0-A9BF-10A1F5A4BC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF059BC3-C0D3-4FF0-A9BF-10A1F5A4BC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF059BC3-C0D3-4FF0-A9BF-10A1F5A4BC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF059BC3-C0D3-4FF0-A9BF-10A1F5A4BC72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

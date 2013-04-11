@@ -131,10 +131,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionResults\PaypalDGExpressCheckoutResult.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -244,16 +246,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="Content\products\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PayPalHelpers\PayPalHelpers.csproj">
+    <ProjectReference Include="..\PayPalHelpers\PayPalDGHelpers.csproj">
       <Project>{bf1975c9-f5dd-4101-b763-e5014f92ab95}</Project>
-      <Name>PayPalHelpers</Name>
+      <Name>PayPalDGHelpers</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -7,8 +7,8 @@
     <ProjectGuid>{BF1975C9-F5DD-4101-B763-E5014F92AB95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PayPalHelpers</RootNamespace>
-    <AssemblyName>PayPalHelpers</AssemblyName>
+    <RootNamespace>PayPalDGHelpers</RootNamespace>
+    <AssemblyName>PayPalDGHelpers</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -48,6 +48,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPayPalDGService.cs" />
+    <Compile Include="PayPalDGAdditionalCallbackParam.cs" />
+    <Compile Include="PayPalDGException.cs" />
+    <Compile Include="PayPalDGModel.cs" />
+    <Compile Include="PayPalDGProductItem.cs" />
+    <Compile Include="PayPalDGService.cs" />
+    <Compile Include="PayPalDGUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
